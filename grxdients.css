@@ -8636,13 +8636,6 @@
     -webkit-text-fill-color: transparent !important;
 }
 
-.grx-anim8d {
-    background-size: 500% 500% !important;
-    -webkit-animation: anim8 5s ease infinite !important;
-    -moz-animation: anim8 5s ease infinite !important;
-    animation: anim8 5s ease infinite !important;
-}
-
 .grx-black-shadow {
     -webkit-box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-spread) rgba(var(--black-rgb), var(--alpha)) !important;
     -moz-box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-spread) rgba(var(--black-rgb), var(--alpha)) !important;
@@ -8767,46 +8760,4 @@
     -webkit-box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-spread) rgba(var(--grey-rgb), var(--alpha)) !important;
     -moz-box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-spread) rgba(var(--grey-rgb), var(--alpha)) !important;
     box-shadow: var(--offset-x) var(--offset-y) var(--shadow-blur) var(--shadow-spread) rgba(var(--grey-rgb), var(--alpha)) !important;
-}
-
-@-webkit-keyframes anim8 {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 50%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@-moz-keyframes anim8 {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 50%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
-}
-
-@keyframes anim8 {
-    0% {
-        background-position: 0% 50%
-    }
-
-    50% {
-        background-position: 100% 50%
-    }
-
-    100% {
-        background-position: 0% 50%
-    }
 }
