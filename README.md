@@ -4,7 +4,10 @@ grxdients is a css library that makes it easier for you to add gradients to elem
 
 #### How to use
 
-  - npm i grxdients
+
+```
+npm i grxdients
+```
   - add this line on the top of your App.css file
 ```
 @import "grxdients";
